@@ -1,0 +1,133 @@
+
+/*Card style */
+
+.carte_1{
+  background-image:url(./background.png);
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  margin-top:10px; 
+  width: 35%;
+  border-radius: 50px;
+}
+h1{
+ margin-left: 35%;
+ font-size: 250%;
+ font-weight: bold;
+ color :white;
+ 
+}
+.chip{
+  margin-left: 7%;
+  border-radius: 50px;
+  
+}
+.chip img{
+width: 15%;
+}
+.menu{
+  display: flex; 
+}
+
+.section_1{ 
+  display: flex;
+ flex-direction: column;
+ margin-right: 30%;
+
+}
+.section_2{
+  display: flex; 
+  flex-direction: column;
+  margin-left:10%;
+  margin-top: 7%;
+ }
+ .section_2 img{
+  width:40%
+  }
+  .num_card{
+    background-color: rgba(125, 125,125 ,0.5 );
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 25%;
+    font-size: 150%;
+    color: white;
+    width: 130%;
+    font-style: italic;
+  }
+  .child_section_1{
+    display: flex; 
+     margin-left: 26%;
+  }
+  .code{
+    font-size: 120%;
+   color :white;
+   margin-right: 90%;
+  }
+  .child_child_section_1{
+    display: flex; 
+    
+  }
+  .num{
+    font-size: 100%; 
+    font-weight: bold;
+  }
+  .date1{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    font-size: 100%;
+    color :white;
+    margin-left: 10%;
+   }
+  .valid_date
+ {
+  display: flex;
+  flex-direction: column;
+  color :white;
+  font-size: 100%;
+ }
+ .parent_valid_date
+ {
+  display: flex;
+  align-items: center;
+  color :white;
+}
+  .text{
+    margin-left: 30%;
+    margin-top: 5%;
+    font-size: 150%;
+    color: white;
+    width: 100%;
+    margin-bottom: 10%;
+   }
+   /*form css */
+   .form-container{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    
+   }
+   .app-container{
+    display: flex;
+    align-items: center; 
+   }
+   .input-container{
+     margin-left:30px;
+     margin-top: 15px;
+     border:2px solid black;
+     border-radius: 10px;
+     width:400px;
+     height: 50px;
+   }
+   .message{
+    padding-top: 2%;
+    font-size: 110%;
+    font-weight: bold;
+    font-style: italic;
+     color:red;
+   }
+
+
+
+
