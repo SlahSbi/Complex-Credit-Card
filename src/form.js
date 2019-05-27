@@ -17,7 +17,7 @@ class Form extends Component {
     validateCardHolder = cardHolder => {
         const regex = /^[A-Z]{1,12}$/;
         return !regex.test(cardHolder)
-            ? "The card holder must contain Uppercase letters."
+            ? "The card holder must contain 12 Uppercase letters."
             : "";
     };
     onCardHolderBlur = () => {
@@ -32,7 +32,7 @@ class Form extends Component {
     }
     //card number
     validateCardNumber = cardNumber => {
-        const regex = /^([0-9]{4})(?:[ ]?(\d{4})){3}$/
+        const regex = /^([0-9]{4})(?:[ ](?:([0-9]{4}))){3}$/
         return !regex.test(cardNumber)
             ? "The card number must contain 16 numbers."
             : "";

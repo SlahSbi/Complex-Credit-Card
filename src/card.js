@@ -1,6 +1,4 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
-
 
 function  Card(props) {
     return(<div className="carte_1"> 
